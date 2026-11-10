@@ -1,0 +1,30 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local machine and secrets
+.autodl/
+.env
+.env.*
+**/key.cfg
+**/credentials*.json
+**/*secret*
+
+# Large runtime artifacts
+*.vcd
+*.vcd.*
+*.fst
+*.simv
+*.zip
+runs/
+mac_api_cadtestbench/outputs/
+mac_api_cadtestbench/runs/
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,72 @@
+[
+  {
+    "partition": "detailed",
+    "summary": {
+      "evaluation_info": {
+        "dataset": "/root/autodl-tmp/mac_api_cadtestbench/data/CADTestBench",
+        "generation_dir": "/root/autodl-tmp/mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/detailed/final",
+        "output_dir": "/root/autodl-tmp/mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/official_evaluation/20261110_024249_detailed_final_detailed_89b170d8",
+        "partition": "detailed",
+        "timestamp": "2026-11-10T03:02:55.051969"
+      },
+      "statistics": {
+        "total_samples": 200,
+        "total_time_seconds": 1205.268515650183,
+        "average_time_per_sample": 6.026342578250915
+      },
+      "aggregate_metrics": {
+        "cadtest": {
+          "total_samples": 200,
+          "invalid_samples": 68,
+          "invalid_sample_percentage": 34.0,
+          "samples_passed_all_cadtests": 44,
+          "pr": 22.0,
+          "total_cadtests": 3037,
+          "total_passed": 1512,
+          "total_failed": 1525,
+          "rs": 48.08193195693196,
+          "category_accuracy": {
+            "topology_checks": {
+              "passed": 382,
+              "failed": 241,
+              "total": 623,
+              "accuracy": 61.31621187800963
+            },
+            "solid_shell_validity": {
+              "passed": 157,
+              "failed": 94,
+              "total": 251,
+              "accuracy": 62.54980079681275
+            },
+            "dimensions_ratios": {
+              "passed": 524,
+              "failed": 725,
+              "total": 1249,
+              "accuracy": 41.95356285028022
+            },
+            "volumetric_checks": {
+              "passed": 200,
+              "failed": 280,
+              "total": 480,
+              "accuracy": 41.66666666666667
+            },
+            "geometry_types": {
+              "passed": 166,
+              "failed": 124,
+              "total": 290,
+              "accuracy": 57.24137931034483
+            },
+            "spatial_arrangement": {
+              "passed": 83,
+              "failed": 61,
+              "total": 144,
+              "accuracy": 57.638888888888886
+            }
+          }
+        }
+      }
+    },
+    "output_dir": "/root/autodl-tmp/mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/official_evaluation/20261110_024249_detailed_final_detailed_89b170d8",
+    "wrapper_errors": []
+  }
+]

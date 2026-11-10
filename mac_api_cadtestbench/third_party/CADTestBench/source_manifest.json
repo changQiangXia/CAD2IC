@@ -1,0 +1,89 @@
+{
+  "commit": "e29283cc61db7329039d95b429766a50bfd37f89",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1074,
+      "sha256": "1d0dde41ece0f9620937f1a81a67e295ace0eae180c009d862006e8f3b288458",
+      "url": "https://raw.githubusercontent.com/dimitrismallis/CADTestBench/e29283cc61db7329039d95b429766a50bfd37f89/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6852,
+      "sha256": "9f4c2071080faa3ff60976a88b334ee74a39ae5b02a6257adac2bcbc996af1c4",
+      "url": "https://raw.githubusercontent.com/dimitrismallis/CADTestBench/e29283cc61db7329039d95b429766a50bfd37f89/README.md"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 1480,
+      "sha256": "c48ab59f3bbdd8a1cca50f6a07a2a9cd8b3c8d21eafd06cb276231606e564b23",
+      "url": "https://raw.githubusercontent.com/dimitrismallis/CADTestBench/e29283cc61db7329039d95b429766a50bfd37f89/pyproject.toml"
+    },
+    {
+      "path": "src/cadtestbench/__init__.py",
+      "bytes": 81,
+      "sha256": "ea00373ccc2f57acef06ddcf4e0e6481f5bcad6d70a04f4f6652132542001ff1",
+      "url": "https://raw.githubusercontent.com/dimitrismallis/CADTestBench/e29283cc61db7329039d95b429766a50bfd37f89/src/cadtestbench/__init__.py"
+    },
+    {
+      "path": "src/cadtestbench/__main__.py",
+      "bytes": 173,
+      "sha256": "3407f7a395a0c24a41bf61c2d89971e3f67e95bd92eb6af8fdd68408c883f499",
+      "url": "https://raw.githubusercontent.com/dimitrismallis/CADTestBench/e29283cc61db7329039d95b429766a50bfd37f89/src/cadtestbench/__main__.py"
+    },
+    {
+      "path": "src/cadtestbench/cli.py",
+      "bytes": 10705,
+      "sha256": "550304678613eb92aad93f220a453f535b080f8642c4b853fea1530d3c8f15fd",
+      "url": "https://raw.githubusercontent.com/dimitrismallis/CADTestBench/e29283cc61db7329039d95b429766a50bfd37f89/src/cadtestbench/cli.py"
+    },
+    {
+      "path": "src/cadtestbench/constants.py",
+      "bytes": 850,
+      "sha256": "6ba27a7fe9190011bb4574448ebd8ffa5797886dd47b9395ed51b63e540cef1b",
+      "url": "https://raw.githubusercontent.com/dimitrismallis/CADTestBench/e29283cc61db7329039d95b429766a50bfd37f89/src/cadtestbench/constants.py"
+    },
+    {
+      "path": "src/cadtestbench/data_source.py",
+      "bytes": 7909,
+      "sha256": "ba06a15dfe5a292a3a3463ad56a777f9fba8e47e3280cd9fedecaabc443f48f6",
+      "url": "https://raw.githubusercontent.com/dimitrismallis/CADTestBench/e29283cc61db7329039d95b429766a50bfd37f89/src/cadtestbench/data_source.py"
+    },
+    {
+      "path": "src/cadtestbench/loaders/__init__.py",
+      "bytes": 168,
+      "sha256": "aac3e2daf6d783a0688389225c1b5ff6277c95a7186d50259253a66b710c5f85",
+      "url": "https://raw.githubusercontent.com/dimitrismallis/CADTestBench/e29283cc61db7329039d95b429766a50bfd37f89/src/cadtestbench/loaders/__init__.py"
+    },
+    {
+      "path": "src/cadtestbench/loaders/cadtestbench_loader.py",
+      "bytes": 2449,
+      "sha256": "e4e42329ff9dac282e2073250bbb1a77a10d3fa9164d95adb4cb0ddf4df99e77",
+      "url": "https://raw.githubusercontent.com/dimitrismallis/CADTestBench/e29283cc61db7329039d95b429766a50bfd37f89/src/cadtestbench/loaders/cadtestbench_loader.py"
+    },
+    {
+      "path": "src/cadtestbench/metrics/__init__.py",
+      "bytes": 2245,
+      "sha256": "d2f630617ed425f16234e407271fd1b83b69db6765b336072e981612e10a3f78",
+      "url": "https://raw.githubusercontent.com/dimitrismallis/CADTestBench/e29283cc61db7329039d95b429766a50bfd37f89/src/cadtestbench/metrics/__init__.py"
+    },
+    {
+      "path": "src/cadtestbench/metrics/cadtest.py",
+      "bytes": 27151,
+      "sha256": "39dbdc3e44245f2c0972fd2cfbc2e64e261a77ef11ddf568d702854f65ad1c90",
+      "url": "https://raw.githubusercontent.com/dimitrismallis/CADTestBench/e29283cc61db7329039d95b429766a50bfd37f89/src/cadtestbench/metrics/cadtest.py"
+    },
+    {
+      "path": "src/cadtestbench/metrics/interface.py",
+      "bytes": 2137,
+      "sha256": "fb9f5a1f1921fed2692d4e85bfc9f32870f0607eb47e935ac9b4555b6c4dcab0",
+      "url": "https://raw.githubusercontent.com/dimitrismallis/CADTestBench/e29283cc61db7329039d95b429766a50bfd37f89/src/cadtestbench/metrics/interface.py"
+    },
+    {
+      "path": "src/cadtestbench/runner.py",
+      "bytes": 16646,
+      "sha256": "982d14ae945609bd26abb92326ccc3b7bd37db390ea2748009a91c6129b70dd2",
+      "url": "https://raw.githubusercontent.com/dimitrismallis/CADTestBench/e29283cc61db7329039d95b429766a50bfd37f89/src/cadtestbench/runner.py"
+    }
+  ]
+}

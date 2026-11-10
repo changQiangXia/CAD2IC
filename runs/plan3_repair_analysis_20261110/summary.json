@@ -1,0 +1,178 @@
+{
+  "pairs": [
+    {
+      "benchmark": "verilog_eval_v2",
+      "arm": "C",
+      "stage": "full",
+      "task_count": 156,
+      "round1_passed": 109,
+      "final_passed": 121,
+      "unchanged_pass": 108,
+      "repair_recovery": 13,
+      "persistent_fail": 34,
+      "regression": 1
+    },
+    {
+      "benchmark": "verilog_eval_v2",
+      "arm": "D",
+      "stage": "full",
+      "task_count": 156,
+      "round1_passed": 120,
+      "final_passed": 125,
+      "unchanged_pass": 120,
+      "repair_recovery": 5,
+      "persistent_fail": 31
+    },
+    {
+      "benchmark": "rtllm_v2",
+      "arm": "C",
+      "stage": "full",
+      "task_count": 50,
+      "round1_passed": 34,
+      "final_passed": 37,
+      "unchanged_pass": 34,
+      "repair_recovery": 3,
+      "persistent_fail": 13
+    },
+    {
+      "benchmark": "rtllm_v2",
+      "arm": "D",
+      "stage": "full",
+      "task_count": 50,
+      "round1_passed": 35,
+      "final_passed": 41,
+      "unchanged_pass": 34,
+      "repair_recovery": 7,
+      "persistent_fail": 8,
+      "regression": 1
+    },
+    {
+      "benchmark": "verilog_eval_v2",
+      "arm": "C",
+      "stage": "repeat_1",
+      "task_count": 10,
+      "round1_passed": 6,
+      "final_passed": 8,
+      "unchanged_pass": 6,
+      "persistent_fail": 2,
+      "repair_recovery": 2
+    },
+    {
+      "benchmark": "verilog_eval_v2",
+      "arm": "C",
+      "stage": "repeat_2",
+      "task_count": 10,
+      "round1_passed": 7,
+      "final_passed": 8,
+      "unchanged_pass": 7,
+      "repair_recovery": 1,
+      "persistent_fail": 2
+    },
+    {
+      "benchmark": "verilog_eval_v2",
+      "arm": "C",
+      "stage": "repeat_3",
+      "task_count": 10,
+      "round1_passed": 6,
+      "final_passed": 7,
+      "unchanged_pass": 6,
+      "persistent_fail": 3,
+      "repair_recovery": 1
+    },
+    {
+      "benchmark": "verilog_eval_v2",
+      "arm": "D",
+      "stage": "repeat_1",
+      "task_count": 10,
+      "round1_passed": 4,
+      "final_passed": 6,
+      "unchanged_pass": 4,
+      "persistent_fail": 4,
+      "repair_recovery": 2
+    },
+    {
+      "benchmark": "verilog_eval_v2",
+      "arm": "D",
+      "stage": "repeat_2",
+      "task_count": 10,
+      "round1_passed": 6,
+      "final_passed": 6,
+      "unchanged_pass": 6,
+      "persistent_fail": 4
+    },
+    {
+      "benchmark": "verilog_eval_v2",
+      "arm": "D",
+      "stage": "repeat_3",
+      "task_count": 10,
+      "round1_passed": 6,
+      "final_passed": 6,
+      "unchanged_pass": 6,
+      "persistent_fail": 4
+    },
+    {
+      "benchmark": "rtllm_v2",
+      "arm": "C",
+      "stage": "repeat_1",
+      "task_count": 10,
+      "round1_passed": 5,
+      "final_passed": 7,
+      "persistent_fail": 3,
+      "repair_recovery": 2,
+      "unchanged_pass": 5
+    },
+    {
+      "benchmark": "rtllm_v2",
+      "arm": "C",
+      "stage": "repeat_2",
+      "task_count": 10,
+      "round1_passed": 7,
+      "final_passed": 7,
+      "persistent_fail": 3,
+      "unchanged_pass": 7
+    },
+    {
+      "benchmark": "rtllm_v2",
+      "arm": "C",
+      "stage": "repeat_3",
+      "task_count": 10,
+      "round1_passed": 7,
+      "final_passed": 7,
+      "persistent_fail": 3,
+      "unchanged_pass": 7
+    },
+    {
+      "benchmark": "rtllm_v2",
+      "arm": "D",
+      "stage": "repeat_1",
+      "task_count": 10,
+      "round1_passed": 7,
+      "final_passed": 10,
+      "repair_recovery": 3,
+      "unchanged_pass": 7
+    },
+    {
+      "benchmark": "rtllm_v2",
+      "arm": "D",
+      "stage": "repeat_2",
+      "task_count": 10,
+      "round1_passed": 4,
+      "final_passed": 8,
+      "repair_recovery": 4,
+      "unchanged_pass": 4,
+      "persistent_fail": 2
+    },
+    {
+      "benchmark": "rtllm_v2",
+      "arm": "D",
+      "stage": "repeat_3",
+      "task_count": 10,
+      "round1_passed": 7,
+      "final_passed": 8,
+      "unchanged_pass": 7,
+      "persistent_fail": 2,
+      "repair_recovery": 1
+    }
+  ],
+  "mage_initial_rtl": "not_recoverable from stable logs; not guessed"
+}

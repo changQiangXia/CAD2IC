@@ -1,0 +1,609 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-10T15:37:22+00:00",
+  "project": "CAD to IC multi-agent reproduction and benchmark transfer",
+  "visual_spec": {
+    "document_canvas": [
+      1800,
+      1000
+    ],
+    "png_dpi": 200,
+    "svg_text": "editable",
+    "arm_colors": {
+      "A": "#2F6BFF",
+      "B": "#00A6A6",
+      "C": "#F59E0B",
+      "D": "#8B5CF6"
+    }
+  },
+  "figure_count": 21,
+  "asset_count": 10,
+  "figures": [
+    {
+      "id": "project_architecture",
+      "title": "End-to-end experiment architecture",
+      "type": "diagram",
+      "outputs": [
+        "docs/figures/project_architecture.png",
+        "docs/figures/project_architecture.svg"
+      ],
+      "sources": [
+        "runs/plan3_results_20261110.json",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/metrics.csv",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/evaluations.json",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/protocol.json",
+        "runs/experiment_manifest.json"
+      ],
+      "sample_size": {
+        "CADTestBench detailed": 200,
+        "VerilogEval V2": 156,
+        "RTLLM V2": 50
+      },
+      "caption": "CAD 与 RTL 两条生成链路、官方评测入口、RunRecord 记录层和 2×2 对照层。",
+      "files": [
+        {
+          "path": "docs/figures/project_architecture.png",
+          "sha256": "f5a84cb790d5a863404d990484f9b1aa2ce9b9e161bf957ff9e0070fbedb4198"
+        },
+        {
+          "path": "docs/figures/project_architecture.svg",
+          "sha256": "f643fed046a982c1fffa3cf3ac8a169a48e3237362fb46658f826aa420e08498"
+        }
+      ]
+    },
+    {
+      "id": "benchmark_adapter",
+      "title": "Benchmark adapter and stable MAGE boundary",
+      "type": "diagram",
+      "outputs": [
+        "docs/figures/benchmark_adapter.png",
+        "docs/figures/benchmark_adapter.svg"
+      ],
+      "sources": [
+        "runs/plan3_results_20261110.json",
+        "docs/benchmark_adapter.md",
+        "runs/rtllm_full_20261109/official_eval/results.json",
+        "runs/plan2_B_rtllm_full_20261110T002_v2/official_eval/results.json",
+        "runs/plan2_C_rtllm_full_20261110T002/official_eval/results.json",
+        "runs/plan3_D_rtllm_full_20261110/official_eval/results.json"
+      ],
+      "sample_size": {
+        "VerilogEval V2": 156,
+        "RTLLM V2": 50
+      },
+      "caption": "输入 loader 与官方 evaluator 的替换边界，以及保持原样的 MAGE 多角色工作流。",
+      "files": [
+        {
+          "path": "docs/figures/benchmark_adapter.png",
+          "sha256": "aa149e6b9364f9748bf5216cc1b25587f0b2b07c8e6c28fb3bed07a1ac14d3ea"
+        },
+        {
+          "path": "docs/figures/benchmark_adapter.svg",
+          "sha256": "d0a875823358bd6c3bb788a669d21404258614e25c53cfbd2688b6a6d95d480c"
+        }
+      ]
+    },
+    {
+      "id": "rtl_full_2x2",
+      "title": "Officially scored 2×2 comparison",
+      "type": "chart",
+      "outputs": [
+        "docs/figures/rtl_full_2x2.png",
+        "docs/figures/rtl_full_2x2.svg"
+      ],
+      "sources": [
+        "runs/plan3_results_20261110.json",
+        "runs/plan3_repeat_selection_20261110.json"
+      ],
+      "sample_size": {
+        "VerilogEval V2": 156,
+        "RTLLM V2": 50
+      },
+      "caption": "四组全量官方 pass@1，柱内同时保留通过数与完整分母。",
+      "files": [
+        {
+          "path": "docs/figures/rtl_full_2x2.png",
+          "sha256": "3f738f42b7504b98b7299d9ab7c95aae1ac2a1393f8484b36959deb3aadb4a86"
+        },
+        {
+          "path": "docs/figures/rtl_full_2x2.svg",
+          "sha256": "13bcd11910e1f5506abe76963a51b35d47c0f4ae8c49fb6a126cbb2100c57385"
+        }
+      ]
+    },
+    {
+      "id": "rtl_repeat_mean_std",
+      "title": "Three-repeat mean and standard deviation",
+      "type": "chart",
+      "outputs": [
+        "docs/figures/rtl_repeat_mean_std.png",
+        "docs/figures/rtl_repeat_mean_std.svg"
+      ],
+      "sources": [
+        "runs/plan3_results_20261110.json",
+        "runs/plan3_repeat_selection_20261110.json"
+      ],
+      "sample_size": {
+        "VerilogEval V2": 10,
+        "RTLLM V2": 10,
+        "repeats": 3
+      },
+      "caption": "固定 10 题子集的三次重复均值、标准差与单次通过率散点。",
+      "files": [
+        {
+          "path": "docs/figures/rtl_repeat_mean_std.png",
+          "sha256": "1a24cca0e084cd09638ae081f727ec5e4a05431d1c6c2770e7c8b511daaa3f96"
+        },
+        {
+          "path": "docs/figures/rtl_repeat_mean_std.svg",
+          "sha256": "dfa05fe5740360085f2a4243422f3ec0cc09cace3956c908b16fe8cdb5833adc"
+        }
+      ]
+    },
+    {
+      "id": "rtl_effect_ci_forest",
+      "title": "Full-benchmark paired effect intervals",
+      "type": "chart",
+      "outputs": [
+        "docs/figures/rtl_effect_ci_forest.png",
+        "docs/figures/rtl_effect_ci_forest.svg"
+      ],
+      "sources": [
+        "runs/plan3_results_20261110.json",
+        "runs/plan3_repeat_selection_20261110.json"
+      ],
+      "sample_size": {
+        "VerilogEval V2": 156,
+        "RTLLM V2": 50
+      },
+      "caption": "全量配对效应与 95% task bootstrap 区间，零线对应无方向差异。",
+      "files": [
+        {
+          "path": "docs/figures/rtl_effect_ci_forest.png",
+          "sha256": "8df1a2af58fa28700c5d186f55c390de11c4e989cee1baa4e93e9bba697a81d5"
+        },
+        {
+          "path": "docs/figures/rtl_effect_ci_forest.svg",
+          "sha256": "df039bbe6bede7fbeed048dcfa83b0a633b57cac925550e3e38018ec0c0ef2dd"
+        }
+      ]
+    },
+    {
+      "id": "rtl_repeat_effect_ci",
+      "title": "Fixed-subset repeat effect intervals",
+      "type": "chart",
+      "outputs": [
+        "docs/figures/rtl_repeat_effect_ci.png",
+        "docs/figures/rtl_repeat_effect_ci.svg"
+      ],
+      "sources": [
+        "runs/plan3_results_20261110.json",
+        "runs/plan3_repeat_selection_20261110.json"
+      ],
+      "sample_size": {
+        "VerilogEval V2": 10,
+        "RTLLM V2": 10,
+        "repeats": 3
+      },
+      "caption": "固定子集三次重复的 task-level 配对效应与 95% bootstrap 区间。",
+      "files": [
+        {
+          "path": "docs/figures/rtl_repeat_effect_ci.png",
+          "sha256": "99c97bc1e8a62974d3a567c3d8f32efbb0325dbda5f65d999ef89e23fc0a2c3c"
+        },
+        {
+          "path": "docs/figures/rtl_repeat_effect_ci.svg",
+          "sha256": "628387836524f7116e612b0a99d86972174555febe9c4896c9e3ba6489b91c9c"
+        }
+      ]
+    },
+    {
+      "id": "rtl_complexity_subset",
+      "title": "Predefined complex-task subset",
+      "type": "chart",
+      "outputs": [
+        "docs/figures/rtl_complexity_subset.png",
+        "docs/figures/rtl_complexity_subset.svg"
+      ],
+      "sources": [
+        "runs/plan3_results_20261110.json",
+        "runs/plan3_repeat_selection_20261110.json"
+      ],
+      "sample_size": {
+        "VerilogEval V2": 78,
+        "RTLLM V2": 25
+      },
+      "caption": "按题目规格 token 数预先选出的复杂任务子集，各组使用统一题集。",
+      "files": [
+        {
+          "path": "docs/figures/rtl_complexity_subset.png",
+          "sha256": "755ee9d45f8e61b2e6e80c13fbe1b036394a03e214c2e1ff4c33aaceff85ed18"
+        },
+        {
+          "path": "docs/figures/rtl_complexity_subset.svg",
+          "sha256": "6d5e065bc275a2a4726b7afe52c8e55ff3cdcd4f9069dbfa3a3320c99f23419c"
+        }
+      ]
+    },
+    {
+      "id": "rtl_failure_codes",
+      "title": "Official failure-code composition",
+      "type": "chart",
+      "outputs": [
+        "docs/figures/rtl_failure_codes.png",
+        "docs/figures/rtl_failure_codes.svg"
+      ],
+      "sources": [
+        "runs/mage_verilogeval_full_20261109/official_verilog_eval_repro/results.json",
+        "runs/plan2_B_verilog_eval_full_20261110T002/official_eval/results.json",
+        "runs/plan2_C_verilog_eval_full_20261110T002/official_eval/results.json",
+        "runs/plan3_D_verilog_eval_full_20261110/official_eval/results.json",
+        "runs/rtllm_full_20261109/official_eval/results.json",
+        "runs/plan2_B_rtllm_full_20261110T002_v2/official_eval/results.json",
+        "runs/plan2_C_rtllm_full_20261110T002/official_eval/results.json",
+        "runs/plan3_D_rtllm_full_20261110/official_eval/results.json"
+      ],
+      "sample_size": {
+        "VerilogEval V2": 156,
+        "RTLLM V2": 50
+      },
+      "caption": "各正式 run 的官方失败码构成，失败任务数与总分母可追溯。",
+      "files": [
+        {
+          "path": "docs/figures/rtl_failure_codes.png",
+          "sha256": "915b1e59bafa7283e44edd73ec97bcd4ba78d1e01636619f8dcb5a894ffa65a0"
+        },
+        {
+          "path": "docs/figures/rtl_failure_codes.svg",
+          "sha256": "b014956d0772795344205519ac8da00b785bb04f094b9076cd0fbda994d3f8ea"
+        }
+      ]
+    },
+    {
+      "id": "rtl_repair_analysis",
+      "title": "Round-1 and final RTL outcomes",
+      "type": "chart",
+      "outputs": [
+        "docs/figures/rtl_repair_analysis.png",
+        "docs/figures/rtl_repair_analysis.svg"
+      ],
+      "sources": [
+        "runs/plan3_repair_analysis_20261110/summary.json"
+      ],
+      "sample_size": {
+        "full": {
+          "VerilogEval V2": 156,
+          "RTLLM V2": 50
+        },
+        "repeat_total": {
+          "VerilogEval V2": 30,
+          "RTLLM V2": 30
+        }
+      },
+      "caption": "round-1 与最终 RTL 的官方判定迁移，涵盖修复恢复、持续失败与回归。",
+      "files": [
+        {
+          "path": "docs/figures/rtl_repair_analysis.png",
+          "sha256": "4fa0b48c643c04c1f7ae5421ec8d8a7c784071c862f522d41ce2b2d40b6cbe85"
+        },
+        {
+          "path": "docs/figures/rtl_repair_analysis.svg",
+          "sha256": "8cb114837cc78502882255418c46bd3b6e70c01fddba40eae646b31a9009f026"
+        }
+      ]
+    },
+    {
+      "id": "cad_official_metrics",
+      "title": "CADTestBench official metrics",
+      "type": "chart",
+      "outputs": [
+        "docs/figures/cad_official_metrics.png",
+        "docs/figures/cad_official_metrics.svg"
+      ],
+      "sources": [
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/metrics.csv",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/evaluations.json",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/protocol.json"
+      ],
+      "sample_size": {
+        "CADTestBench detailed": 200
+      },
+      "caption": "CADTestBench detailed 的 PR、RS 与无效样本比例。",
+      "files": [
+        {
+          "path": "docs/figures/cad_official_metrics.png",
+          "sha256": "89f05278494aa92d502ca5a5c2f4280ec49b00d74df4766db3c2d1e198c56582"
+        },
+        {
+          "path": "docs/figures/cad_official_metrics.svg",
+          "sha256": "427d6c79e6a95a2113d2b0fe7a48bf0711539e6710302c5d31e4552de2df6f95"
+        }
+      ]
+    },
+    {
+      "id": "cad_category_accuracy",
+      "title": "CAD category accuracy",
+      "type": "chart",
+      "outputs": [
+        "docs/figures/cad_category_accuracy.png",
+        "docs/figures/cad_category_accuracy.svg"
+      ],
+      "sources": [
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/metrics.csv",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/evaluations.json",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/protocol.json"
+      ],
+      "sample_size": {
+        "category_checks": 3037
+      },
+      "caption": "CAD 六类官方检查的通过数与总检查数，保留类别分母差异。",
+      "files": [
+        {
+          "path": "docs/figures/cad_category_accuracy.png",
+          "sha256": "335ab0aa14887e1d83cf0fac9778d8b29fdd6ef781840344c466b372bbd16521"
+        },
+        {
+          "path": "docs/figures/cad_category_accuracy.svg",
+          "sha256": "e75620bc89b1cdc558419e41bedd495f39ba5db0287189d9465677fd17e81f2d"
+        }
+      ]
+    },
+    {
+      "id": "cad_asset_official_metrics",
+      "title": "Official Metrics",
+      "type": "asset",
+      "outputs": [
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/official_metrics.png"
+      ],
+      "sources": [
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/metrics.csv",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/evaluations.json",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/protocol.json"
+      ],
+      "sample_size": {
+        "CADTestBench detailed": 200
+      },
+      "caption": "冻结 CAD 正式 run 的官方展示资产。",
+      "files": [
+        {
+          "path": "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/official_metrics.png",
+          "sha256": "b20a3d1b7d561cea91104dc39cac31c140e9a55977f6e2c44770c41b8aec03da"
+        }
+      ]
+    },
+    {
+      "id": "cad_asset_category_accuracy",
+      "title": "Category Accuracy",
+      "type": "asset",
+      "outputs": [
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/category_accuracy.png"
+      ],
+      "sources": [
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/metrics.csv",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/evaluations.json",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/protocol.json"
+      ],
+      "sample_size": {
+        "CADTestBench detailed": 200
+      },
+      "caption": "冻结 CAD 正式 run 的官方展示资产。",
+      "files": [
+        {
+          "path": "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/category_accuracy.png",
+          "sha256": "f31e87e6695668cdf7291bc9a2dd54af82ecbb1bf3088ee619acd3015dd45880"
+        }
+      ]
+    },
+    {
+      "id": "cad_asset_sample_category_01",
+      "title": "Sample Category 01",
+      "type": "asset",
+      "outputs": [
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/sample_category_01.png"
+      ],
+      "sources": [
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/metrics.csv",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/evaluations.json",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/protocol.json"
+      ],
+      "sample_size": {
+        "CADTestBench detailed": 200
+      },
+      "caption": "冻结 CAD 正式 run 的官方展示资产。",
+      "files": [
+        {
+          "path": "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/sample_category_01.png",
+          "sha256": "ca5329a6379684adf348f8dc3deb9836fa142f8ede8122ed226003d5d94b4a87"
+        }
+      ]
+    },
+    {
+      "id": "cad_asset_sample_category_02",
+      "title": "Sample Category 02",
+      "type": "asset",
+      "outputs": [
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/sample_category_02.png"
+      ],
+      "sources": [
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/metrics.csv",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/evaluations.json",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/protocol.json"
+      ],
+      "sample_size": {
+        "CADTestBench detailed": 200
+      },
+      "caption": "冻结 CAD 正式 run 的官方展示资产。",
+      "files": [
+        {
+          "path": "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/sample_category_02.png",
+          "sha256": "6fd790522e55c818695d5c3807db1ef5e1402a815621b0ab96b65d6a7bcbc28a"
+        }
+      ]
+    },
+    {
+      "id": "cad_asset_sample_category_03",
+      "title": "Sample Category 03",
+      "type": "asset",
+      "outputs": [
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/sample_category_03.png"
+      ],
+      "sources": [
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/metrics.csv",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/evaluations.json",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/protocol.json"
+      ],
+      "sample_size": {
+        "CADTestBench detailed": 200
+      },
+      "caption": "冻结 CAD 正式 run 的官方展示资产。",
+      "files": [
+        {
+          "path": "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/sample_category_03.png",
+          "sha256": "50801ebd660defde6cf947a261574550468f4e377c40ab3fe5a997c6423cc397"
+        }
+      ]
+    },
+    {
+      "id": "cad_asset_sample_category_04",
+      "title": "Sample Category 04",
+      "type": "asset",
+      "outputs": [
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/sample_category_04.png"
+      ],
+      "sources": [
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/metrics.csv",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/evaluations.json",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/protocol.json"
+      ],
+      "sample_size": {
+        "CADTestBench detailed": 200
+      },
+      "caption": "冻结 CAD 正式 run 的官方展示资产。",
+      "files": [
+        {
+          "path": "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/sample_category_04.png",
+          "sha256": "2ffa57af8dd06d17f1b5da2a8f530a25c667e77ef592fa56b3326f5a5fd6050b"
+        }
+      ]
+    },
+    {
+      "id": "cad_asset_sample_category_05",
+      "title": "Sample Category 05",
+      "type": "asset",
+      "outputs": [
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/sample_category_05.png"
+      ],
+      "sources": [
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/metrics.csv",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/evaluations.json",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/protocol.json"
+      ],
+      "sample_size": {
+        "CADTestBench detailed": 200
+      },
+      "caption": "冻结 CAD 正式 run 的官方展示资产。",
+      "files": [
+        {
+          "path": "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/sample_category_05.png",
+          "sha256": "7cb2e7c409df241ccb8f4e577978b5a2475466889db5bbc324d45c2e3db5e06e"
+        }
+      ]
+    },
+    {
+      "id": "cad_asset_sample_category_06",
+      "title": "Sample Category 06",
+      "type": "asset",
+      "outputs": [
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/sample_category_06.png"
+      ],
+      "sources": [
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/metrics.csv",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/evaluations.json",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/protocol.json"
+      ],
+      "sample_size": {
+        "CADTestBench detailed": 200
+      },
+      "caption": "冻结 CAD 正式 run 的官方展示资产。",
+      "files": [
+        {
+          "path": "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/sample_category_06.png",
+          "sha256": "204683debb40c4f0eb03f1c7e85ab0a071235184409e1f076ac397fe00371bd1"
+        }
+      ]
+    },
+    {
+      "id": "cad_asset_cad_gallery",
+      "title": "Cad Gallery",
+      "type": "asset",
+      "outputs": [
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/generated_stl_gallery.png"
+      ],
+      "sources": [
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/metrics.csv",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/evaluations.json",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/protocol.json"
+      ],
+      "sample_size": {
+        "CADTestBench detailed": 200
+      },
+      "caption": "冻结 CAD 正式 run 的官方展示资产。",
+      "files": [
+        {
+          "path": "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/generated_stl_gallery.png",
+          "sha256": "cf0854199735cd5a1a21b3e8855f2af2b1338de89e4158bac7ae1e2c8d37bb82"
+        }
+      ]
+    },
+    {
+      "id": "cad_asset_interactive_html",
+      "title": "Interactive Html",
+      "type": "interactive",
+      "outputs": [
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/rotatable_cad.html"
+      ],
+      "sources": [
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/metrics.csv",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/evaluations.json",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/protocol.json"
+      ],
+      "sample_size": {
+        "CADTestBench detailed": 200
+      },
+      "caption": "冻结 CAD 正式 run 的官方展示资产。",
+      "files": [
+        {
+          "path": "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/rotatable_cad.html",
+          "sha256": "8edf74724b7c94c3a366e80350767e8ee614b57da0084af590bcb021eba2b1c6"
+        }
+      ]
+    },
+    {
+      "id": "visualization_gallery",
+      "title": "Visualization gallery",
+      "type": "gallery",
+      "outputs": [
+        "docs/visualizations/index.html"
+      ],
+      "sources": [
+        "runs/plan3_results_20261110.json",
+        "runs/plan3_repair_analysis_20261110/summary.json",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/metrics.csv",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/evaluations.json",
+        "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/protocol.json"
+      ],
+      "sample_size": {
+        "CADTestBench detailed": 200,
+        "VerilogEval V2": 156,
+        "RTLLM V2": 50
+      },
+      "caption": "按实验阶段组织的响应式图册，集中提供 PNG、SVG、源数据与交互资产入口。",
+      "files": [
+        {
+          "path": "docs/visualizations/index.html",
+          "sha256": "00bd7c8063edcde4f1f54bdd5862f42a3c984c1561d279fb2f5bc596f453db46"
+        }
+      ]
+    }
+  ]
+}

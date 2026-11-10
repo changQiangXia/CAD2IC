@@ -1,0 +1,565 @@
+{
+  "repo": "https://github.com/Pan-Chera/Multi-Agent-CAD",
+  "commit": "487f94b7064e935c1a9a2f9b426525d5c94cd857",
+  "scope": "Core source snapshot, excludes web UI, images, benchmark outputs, tests and example assembly prompts; original source files unmodified",
+  "files": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/LICENSE",
+      "sha256": "b0d5bf2263928b3c6e536e1791e1820b991ee4c6c74568e5710026c62b8c8c29",
+      "bytes": 1087
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/README.md",
+      "sha256": "084cee54230755287cfe7e6b612e1e207439a41b42cc0e4cb0acd12c53f00ac4",
+      "bytes": 18968
+    },
+    {
+      "path": "README_cn.md",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/README_cn.md",
+      "sha256": "1e443babf8993ec1c5cee4ccce0ef5491bf0110410219915cec0c075c9f74389",
+      "bytes": 15282
+    },
+    {
+      "path": "SECURITY.md",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/SECURITY.md",
+      "sha256": "ed8b6eb43e5228b93f8e0d0a0cb4d903af205405d7aa3b53bf30cf5b560a0231",
+      "bytes": 2598
+    },
+    {
+      "path": "environment.yml",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/environment.yml",
+      "sha256": "049ca964e022c9c75bbd32c7fc56bce3b974e0e502185f8ab2b2b95047822407",
+      "bytes": 2073
+    },
+    {
+      "path": "legacy_refs/__init__.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/legacy_refs/__init__.py",
+      "sha256": "5471418fae0e1f478705ba5ab04a2e1270b129085124bd1a57724b2cabfdd154",
+      "bytes": 71
+    },
+    {
+      "path": "legacy_refs/check_mesh.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/legacy_refs/check_mesh.py",
+      "sha256": "56032fbed134e62780583acce93af4d62d8f3a05cf98cea4bf6d26c42610f82e",
+      "bytes": 83932
+    },
+    {
+      "path": "mac_assembly/README.md",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/mac_assembly/README.md",
+      "sha256": "85d8472c9284fbebf73e717c326acb15dce0f68137db8407b0bb95eeb03653c2",
+      "bytes": 13952
+    },
+    {
+      "path": "mac_assembly/README_cn.md",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/mac_assembly/README_cn.md",
+      "sha256": "55d79a63d944eb8ace01ac3b2ca1c6abaeb79b2284b857f92921b3913ea741c9",
+      "bytes": 12568
+    },
+    {
+      "path": "mac_assembly/__init__.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/mac_assembly/__init__.py",
+      "sha256": "ccd0621c05ac5fe11c07d63c5030d1cc663ab4559efb7ca9d6485eb089891ac1",
+      "bytes": 883
+    },
+    {
+      "path": "mac_assembly/__main__.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/mac_assembly/__main__.py",
+      "sha256": "a4882571989bdff9020d6b92119e09fe1016101047dcaba5f0c8f3f356882bd8",
+      "bytes": 233
+    },
+    {
+      "path": "mac_assembly/_part_runner.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/mac_assembly/_part_runner.py",
+      "sha256": "aad736a2895158ee19f42285bc94d02bc1699496455345a0c3a17d516969e353",
+      "bytes": 6657
+    },
+    {
+      "path": "mac_assembly/assembly_codegen.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/mac_assembly/assembly_codegen.py",
+      "sha256": "eb2ff52bc8fbb90b492aae5863acc8ee82097d2e38c609514d3ada5cce663aa5",
+      "bytes": 56783
+    },
+    {
+      "path": "mac_assembly/assembly_qa.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/mac_assembly/assembly_qa.py",
+      "sha256": "bc5c2c491ee4c0181b151a7b9cabfd23414a75b3d2d5fa6250d145427feb0833",
+      "bytes": 132348
+    },
+    {
+      "path": "mac_assembly/builders.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/mac_assembly/builders.py",
+      "sha256": "43fe3fd3eaa6cc956cab81d60c015b785e50214bdcb74788ddb8abebed512233",
+      "bytes": 84876
+    },
+    {
+      "path": "mac_assembly/config_assembly.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/mac_assembly/config_assembly.py",
+      "sha256": "4f7aa628a9d22d8eddb0589874e29929db1253d83e0dc430b91544a166b5c5a7",
+      "bytes": 7751
+    },
+    {
+      "path": "mac_assembly/feature_operators.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/mac_assembly/feature_operators.py",
+      "sha256": "2f53a5062281ad1c5e6c47b540189cf5963bcba457b8a10046626c72e55085b9",
+      "bytes": 48813
+    },
+    {
+      "path": "mac_assembly/file_utils.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/mac_assembly/file_utils.py",
+      "sha256": "bf43f43181a52deadfe9391443fc3152e28b95ec9d79ac80b2c8d6a1d900dbd5",
+      "bytes": 1684
+    },
+    {
+      "path": "mac_assembly/geometry_utils.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/mac_assembly/geometry_utils.py",
+      "sha256": "52e7740ad4f379891e8f342b39eb9104d47cdbfb4e107a45f745db5260223b87",
+      "bytes": 7363
+    },
+    {
+      "path": "mac_assembly/graph_assembly.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/mac_assembly/graph_assembly.py",
+      "sha256": "66e2a82ffbdbc4d2a51e3724b876e80389be838da10b12fdb83bc1f3273b4a1e",
+      "bytes": 59777
+    },
+    {
+      "path": "mac_assembly/handoff.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/mac_assembly/handoff.py",
+      "sha256": "750289b4f7e3b922207c42702aa1997394c767de66209d24a88b7b0852ffe6b9",
+      "bytes": 9386
+    },
+    {
+      "path": "mac_assembly/llm_utils.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/mac_assembly/llm_utils.py",
+      "sha256": "4a9e6a0b283d92e102d33628de8b043dd7c748428be107f414b030cb08f157a7",
+      "bytes": 2016
+    },
+    {
+      "path": "mac_assembly/nodes_assembly.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/mac_assembly/nodes_assembly.py",
+      "sha256": "afe50b7db4f17a83561a1444c8e608fc179631cd2f07eaaa634d9904a9f38f01",
+      "bytes": 118885
+    },
+    {
+      "path": "mac_assembly/part_generator.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/mac_assembly/part_generator.py",
+      "sha256": "03277256bf9db6c42eb69047be4b87a88a044c405193cc168b40929e91f7cd41",
+      "bytes": 70125
+    },
+    {
+      "path": "mac_assembly/prompts/assembly_judge.md",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/mac_assembly/prompts/assembly_judge.md",
+      "sha256": "ae23520efde9f591c8fa2b7106a9879a37b5ba368dbf9b9037190c3f30a4cdb0",
+      "bytes": 6042
+    },
+    {
+      "path": "mac_assembly/prompts/assembly_repair.md",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/mac_assembly/prompts/assembly_repair.md",
+      "sha256": "f6834a9ffa900ba1037eb999e92e8860ee4312c85db0ef37a51425326c829d3e",
+      "bytes": 2831
+    },
+    {
+      "path": "mac_assembly/prompts/decomposer.md",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/mac_assembly/prompts/decomposer.md",
+      "sha256": "6b04867afda17e29ea31147619e545cf1df253e683ad6ff860fa10e8e06a7b3f",
+      "bytes": 43505
+    },
+    {
+      "path": "mac_assembly/prompts/mating_architect.md",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/mac_assembly/prompts/mating_architect.md",
+      "sha256": "df81036acc66c0f56e2e2819af3f77b0cec7a9fbe3038bed7498e6dbde35c98c",
+      "bytes": 28892
+    },
+    {
+      "path": "mac_assembly/schemas_assembly.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/mac_assembly/schemas_assembly.py",
+      "sha256": "61515717eb1da2bb33c2e01f7e7f442df7604836bce25100dc85af816b090220",
+      "bytes": 54873
+    },
+    {
+      "path": "mac_assembly/selector_resolver.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/mac_assembly/selector_resolver.py",
+      "sha256": "e20c51787880e8f78c17fe182783a902553bbac9011ab524f439ad29e1546be6",
+      "bytes": 37938
+    },
+    {
+      "path": "mac_assembly/urdf_export.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/mac_assembly/urdf_export.py",
+      "sha256": "ff3c42a182cb27fcc61d60f096dfd6e4cba732a6838c632d3678dfd7aa1dea74",
+      "bytes": 45546
+    },
+    {
+      "path": "multi_agent_cad/README.md",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/multi_agent_cad/README.md",
+      "sha256": "03df073322c87f40cd5ffe7dffcd49f8948c5919050b55d853df5c0c6fea1c21",
+      "bytes": 10391
+    },
+    {
+      "path": "multi_agent_cad/README_cn.md",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/multi_agent_cad/README_cn.md",
+      "sha256": "a46ff84a834b76fb55cde15325c4226929fd588453f1d67c2a48dfba7cf6ed21",
+      "bytes": 9360
+    },
+    {
+      "path": "multi_agent_cad/WORKFLOW.md",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/multi_agent_cad/WORKFLOW.md",
+      "sha256": "b9afa7286226ba68d5cc92ce2707b4b786de8af1eba5315d7db20ac485d63f19",
+      "bytes": 58430
+    },
+    {
+      "path": "multi_agent_cad/__init__.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/multi_agent_cad/__init__.py",
+      "sha256": "8583143cf10afcc1fc2d4b7107e3301b360e900db3ffbc5a90d9029433c62046",
+      "bytes": 2936
+    },
+    {
+      "path": "multi_agent_cad/_cadpy_runner.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/multi_agent_cad/_cadpy_runner.py",
+      "sha256": "ba80190c3c01a6d5ed6dcb1b35f862a863b8a9fa909fabf8f2d6a07d69da22a2",
+      "bytes": 3621
+    },
+    {
+      "path": "multi_agent_cad/_config_defaults.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/multi_agent_cad/_config_defaults.py",
+      "sha256": "eb039848fa2142133297c480bf7c688f469b7d4964751e966fffbb2ed032ab8e",
+      "bytes": 14664
+    },
+    {
+      "path": "multi_agent_cad/build123d_reference.md",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/multi_agent_cad/build123d_reference.md",
+      "sha256": "620d550928c0f6d986c022f3a1f211613a9b301613361d5c2597e5661903a15f",
+      "bytes": 10078
+    },
+    {
+      "path": "multi_agent_cad/config.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/multi_agent_cad/config.py",
+      "sha256": "b1fda83e41ff80b5c506fe6ca59679e8c132f3143c1abfeaf5091212ab67121f",
+      "bytes": 12679
+    },
+    {
+      "path": "multi_agent_cad/graph.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/multi_agent_cad/graph.py",
+      "sha256": "fa72468547784789de9781a815b1f2c1082bbf6651fbe864e79a481485ae5870",
+      "bytes": 17096
+    },
+    {
+      "path": "multi_agent_cad/graph_aider.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/multi_agent_cad/graph_aider.py",
+      "sha256": "a321710648a59d187fde1262ab2353bcd3fefd2d5946202faa91124c91fdbdec",
+      "bytes": 12518
+    },
+    {
+      "path": "multi_agent_cad/image_preprocess.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/multi_agent_cad/image_preprocess.py",
+      "sha256": "5433ba48c16bd76e67468a1bfe23705f2dc984af821b0bb884a1ad7d36e16e4f",
+      "bytes": 7223
+    },
+    {
+      "path": "multi_agent_cad/nodes.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/multi_agent_cad/nodes.py",
+      "sha256": "d8d10d925e0513e93ec063e12f5fc46ee4ade383622bc0f27773b510cb714a29",
+      "bytes": 434454
+    },
+    {
+      "path": "multi_agent_cad/prompts/geometric_architect.md",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/multi_agent_cad/prompts/geometric_architect.md",
+      "sha256": "ecfe2d36cdb00ecb031ae09ac209d5ce5bcaae994c49354ee15a57c1e78320cd",
+      "bytes": 15461
+    },
+    {
+      "path": "multi_agent_cad/prompts/python_coder.md",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/multi_agent_cad/prompts/python_coder.md",
+      "sha256": "c7db9eba4d02704f452704e13b4b9667bb1e02a1a823da8b64b3d8a58708a443",
+      "bytes": 4360
+    },
+    {
+      "path": "multi_agent_cad/prompts/qa_judge.md",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/multi_agent_cad/prompts/qa_judge.md",
+      "sha256": "ba4aac9f58298342971b2b10df1ed992ff86d9c4835ace63e0cbfb8abb7f2fa7",
+      "bytes": 27726
+    },
+    {
+      "path": "multi_agent_cad/prompts/repair.md",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/multi_agent_cad/prompts/repair.md",
+      "sha256": "56cf7bb6ae27569657b2830f72fc5516733586e1cd1f7872a7048cb1055141aa",
+      "bytes": 11412
+    },
+    {
+      "path": "multi_agent_cad/prompts/spec_planner.md",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/multi_agent_cad/prompts/spec_planner.md",
+      "sha256": "bdab25ddb102f8c66daa65027dd0de087390a720a3797b37914e52748a503d5b",
+      "bytes": 9384
+    },
+    {
+      "path": "multi_agent_cad/render_views.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/multi_agent_cad/render_views.py",
+      "sha256": "f17a4101b38191d520778ff1515173a900a8ed0818f2bb591d51b2611e4bea50",
+      "bytes": 10321
+    },
+    {
+      "path": "multi_agent_cad/schemas.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/multi_agent_cad/schemas.py",
+      "sha256": "1b9628d321e58bae8384876f04e21232b4c71b913f72fe264f5dd804be918957",
+      "bytes": 46847
+    },
+    {
+      "path": "multi_agent_cad/service_armoured_chassis.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/multi_agent_cad/service_armoured_chassis.py",
+      "sha256": "102e27fcb89d833784c82dbd2356b6b90d2d4a582bb1b3e794d381c582ee18dc",
+      "bytes": 11535
+    },
+    {
+      "path": "multi_agent_cad/service_counterweight_frame.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/multi_agent_cad/service_counterweight_frame.py",
+      "sha256": "1d0cad6003c18d58a2b0072684f4f5f68412a8fe485709448ede3872fdfdd226",
+      "bytes": 9523
+    },
+    {
+      "path": "multi_agent_cad/service_cover_panel.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/multi_agent_cad/service_cover_panel.py",
+      "sha256": "8edb4cb1c0646c7485cf3f173733c4347d67dcdce66e976d240d2e9725edc835",
+      "bytes": 11379
+    },
+    {
+      "path": "multi_agent_cad/token_tracker.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/multi_agent_cad/token_tracker.py",
+      "sha256": "7f60865a2152f3d0a917796bc6c1360d63bc95ae2da104769c065c7d5913e979",
+      "bytes": 12709
+    },
+    {
+      "path": "multi_agent_cad/web_runner.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/multi_agent_cad/web_runner.py",
+      "sha256": "af391e13a34cf16f095429f461bb837ee6a3a255700353526f79e9c9a0f45ba2",
+      "bytes": 6106
+    },
+    {
+      "path": "packages/cadpy/README.md",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/README.md",
+      "sha256": "001e4ef20e9336ba98f8cc400e89b1cfaf3edb6976ec58150faffe3d62a0dde7",
+      "bytes": 1962
+    },
+    {
+      "path": "packages/cadpy/pyproject.toml",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/pyproject.toml",
+      "sha256": "07a3eac8b490a9e68d31d6cb314e38d74688f5471283050b76a4bb242387b6d0",
+      "bytes": 566
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/__init__.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/__init__.py",
+      "sha256": "11766450b58e7a5c4f302d8b84358ece36efc18b019909b063a5a18d793c4a83",
+      "bytes": 1152
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/analysis.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/analysis.py",
+      "sha256": "13a21fccd4c81b7e1f06e9da48d840fa924aaadc0f264f0045894f6aadbc3c2e",
+      "bytes": 25476
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/api.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/api.py",
+      "sha256": "eb989c0733ea7a27cca425965bd5ab42d3e959ac81126c04cba17085bc4334c6",
+      "bytes": 290
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/assembly.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/assembly.py",
+      "sha256": "23b94737e4de763f815a86b59fe8c072a4e4a6415f05b8f1883ac25040e32d96",
+      "bytes": 15301
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/assembly_composition.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/assembly_composition.py",
+      "sha256": "8574c694b4c8af72c021a5b5e6925936118e5a7379e20576e6616bc935b52495",
+      "bytes": 50440
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/assembly_export.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/assembly_export.py",
+      "sha256": "b98408da501b10e97075a1cbae02c160a246f5b906fff73b0e56fb3536e92103",
+      "bytes": 36481
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/assembly_flatten.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/assembly_flatten.py",
+      "sha256": "98e92c12a5ae3662367187caef775f0d5d2553399ef0a636677e7b09b9d93d07",
+      "bytes": 8885
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/assembly_spec.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/assembly_spec.py",
+      "sha256": "966fb33a039eabca648a6f813710989dfa1c3258224f55e923b5b4d198e95ca4",
+      "bytes": 16440
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/cad_ref_syntax.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/cad_ref_syntax.py",
+      "sha256": "e39fb4061425d6c0b724de9b0e5c200b53147bf49e5169c5c859580aa5402e9b",
+      "bytes": 4329
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/catalog.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/catalog.py",
+      "sha256": "2684739636e5170a003ba69d6e4ac5bd58a6f530a3864557add503f980cebe71",
+      "bytes": 20116
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/cli_logging.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/cli_logging.py",
+      "sha256": "e51a72a0ab88b7de1c084b44ffd89a88e1423329b5cf2073b9766197dab41960",
+      "bytes": 1685
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/file_metadata.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/file_metadata.py",
+      "sha256": "9d2eda4c024f5fc6213ac122e168d861922bc73b29a14103b6d59dec8d10a5e7",
+      "bytes": 1902
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/generation.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/generation.py",
+      "sha256": "2d34c4c114f53d06f076941f4630006343b90aca6dbed70983707de8724c7389",
+      "bytes": 89021
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/generation_status.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/generation_status.py",
+      "sha256": "d8408b5fd353b0bd03094f875aae9968cba4f2a36d1e6d3c867872ab4011d80e",
+      "bytes": 5912
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/glb.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/glb.py",
+      "sha256": "6a5bc028926bcb86d880b81bea1954033707fb4e4db6b37111e414814987e069",
+      "bytes": 45406
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/glb_mesh_payload.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/glb_mesh_payload.py",
+      "sha256": "d443864fab858d2a46686eddcb4ac9c78790fc66a5e41bac0e074993f3c7e70d",
+      "bytes": 15778
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/glb_topology.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/glb_topology.py",
+      "sha256": "b7c4abbfbff6867574a9033408e12fed7366af0039475e8a8dc45f70ee64a7ee",
+      "bytes": 20805
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/lookup.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/lookup.py",
+      "sha256": "e8bd1f2541884adce71958796f877563957cec4843ff9e64e04bcded85528b0e",
+      "bytes": 9973
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/metadata.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/metadata.py",
+      "sha256": "478e73ccf8c0ca4a5e7e673ba12beb7a8468b0501912dea40ae272241a730988",
+      "bytes": 16549
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/py.typed",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/py.typed",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/render.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/render.py",
+      "sha256": "e54b8f214d762d47325385095ca261be3de3538a3e2a8fdfd801d6b1bb8771ce",
+      "bytes": 2943
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/reporting.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/reporting.py",
+      "sha256": "7de491d04eb2c2d82f2e109b572f97df2e9647b461874387ad50829b59deb0e7",
+      "bytes": 4034
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/selector_types.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/selector_types.py",
+      "sha256": "6397931b98d9ab4e31d05a73351d7a722904fe0b1fa07125d4d277f6fb14e348",
+      "bytes": 374
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/source_hash.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/source_hash.py",
+      "sha256": "4421c4c5c8a605a9ca0ab84cadc044cda0d3de6ce6e197301c2934554149507b",
+      "bytes": 1584
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/step_artifact.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/step_artifact.py",
+      "sha256": "d9fa654f8472aa73dcd2ce176923d2df9dea2b00526533ead5e0b2362b22442a",
+      "bytes": 14822
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/step_artifacts.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/step_artifacts.py",
+      "sha256": "4a560f6bfc37760deac0fe382fd0877f09c037787c7680745705909a9c47038c",
+      "bytes": 8137
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/step_export.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/step_export.py",
+      "sha256": "08cb5c6762f026a4af36aafb78851d0dec83981e264fe3f9515c0a27fdb059ed",
+      "bytes": 13395
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/step_hash.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/step_hash.py",
+      "sha256": "d392a61382c5193bbb4ff032018b51d67928561209cc87d59539c5eb2d2f0763",
+      "bytes": 345
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/step_metadata.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/step_metadata.py",
+      "sha256": "951f132116e8f74ae53f798cbe196e0dc0a3d90695ea83ae5e49442cb73f19b5",
+      "bytes": 12373
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/step_scene.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/step_scene.py",
+      "sha256": "0e86b79094cb6c82ebfcbce5d1fffbd9d33a42d6559050b98378a19434b0b2aa",
+      "bytes": 105591
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/step_targets.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/step_targets.py",
+      "sha256": "bb9151684b3e3863e23c25b0feadae7d8b2a10612caf47d5c077d7d986dcfa3a",
+      "bytes": 17820
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/stl.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/stl.py",
+      "sha256": "89fe3325bf99ce9b26e48696cd8787272c83b25b4bc00d166f7551d7e2ddae35",
+      "bytes": 1026
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/threemf.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/threemf.py",
+      "sha256": "09340ce2ccc130764784238b1ba87537138e1108c84aaf413f85c6d890c48996",
+      "bytes": 20127
+    },
+    {
+      "path": "packages/cadpy/src/cadpy/validators.py",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/packages/cadpy/src/cadpy/validators.py",
+      "sha256": "b99b730d456d4b06f69aaf54ff6cab0ed29e936f0a6ab2d9f6fbbd1a01820046",
+      "bytes": 3946
+    },
+    {
+      "path": "pyproject.toml",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/pyproject.toml",
+      "sha256": "d18f6d42e11b815194e9dec72531dd511a304be0178aef520babb4012391dde0",
+      "bytes": 3141
+    },
+    {
+      "path": "requirements.txt",
+      "url": "https://raw.githubusercontent.com/Pan-Chera/Multi-Agent-CAD/487f94b7064e935c1a9a2f9b426525d5c94cd857/requirements.txt",
+      "sha256": "429444422585c420e92ff9341dcee77889dc78ad1715dafacc51fcaa5598da30",
+      "bytes": 2453
+    }
+  ]
+}

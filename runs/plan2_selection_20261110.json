@@ -1,0 +1,51 @@
+{
+  "seed": "plan2:20261110:",
+  "verilog_eval_v2": [
+    "Prob109_fsm1",
+    "Prob044_vectorgates",
+    "Prob076_always_case",
+    "Prob023_vector100r",
+    "Prob075_counter_2bc",
+    "Prob064_vector3",
+    "Prob082_lfsr32",
+    "Prob147_circuit10",
+    "Prob104_mt2015_muxdff",
+    "Prob077_wire_decl",
+    "Prob019_m2014_q4f",
+    "Prob042_vector4",
+    "Prob059_wire4",
+    "Prob058_alwaysblock2",
+    "Prob027_fadd",
+    "Prob049_m2014_q4b",
+    "Prob037_review2015_count1k",
+    "Prob001_zero",
+    "Prob154_fsm_ps2data",
+    "Prob089_ece241_2014_q5a"
+  ],
+  "rtllm_v2": [
+    "adder_32bit",
+    "adder_8bit",
+    "multi_booth_8bit",
+    "adder_bcd",
+    "div_16bit",
+    "multi_pipe_4bit",
+    "comparator_4bit",
+    "multi_8bit",
+    "barrel_shifter",
+    "asyn_fifo",
+    "sequence_detector",
+    "counter_12",
+    "ring_counter",
+    "calendar",
+    "alu",
+    "ROM",
+    "clkgenerator",
+    "instr_reg",
+    "RAM",
+    "traffic_light"
+  ],
+  "rules": {
+    "verilog_eval_v2": "global SHA256 rank, first 20",
+    "rtllm_v2": "category-stratified SHA256 rank: 8/2/3/7"
+  }
+}

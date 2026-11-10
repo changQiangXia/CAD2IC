@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="648pt" height="360pt" viewBox="0 0 648 360" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>cad_official_metrics</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>cad_official_metrics</dc:title>
+    <dc:date>2026-11-10</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Plan 4 visualization pipeline</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 360 
+L 648 360 
+L 648 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 48.6 298.8 
+L 625.32 298.8 
+L 625.32 90 
+L 48.6 90 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #475569" transform="translate(130.359903 312.398438)">PR</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #475569" transform="translate(104.174747 323.59625)">all tests pass</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #475569" transform="translate(330.311562 312.398438)">RS</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #475569" transform="translate(287.399844 323.59625)">requirement groups</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #475569" transform="translate(520.451503 312.398438)">Invalid</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #475569" transform="translate(503.446034 323.59625)">sample share</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <path d="M 48.6 298.8 
+L 625.32 298.8 
+" clip-path="url(#p46166e1494)" style="fill: none; stroke: #e5e7eb; stroke-opacity: 0.9; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_5"/>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #475569" x="42.6" y="302.599219" transform="rotate(-0 42.6 302.599219)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6">
+      <path d="M 48.6 257.04 
+L 625.32 257.04 
+" clip-path="url(#p46166e1494)" style="fill: none; stroke: #e5e7eb; stroke-opacity: 0.9; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_7"/>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #475569" x="42.6" y="260.839219" transform="rotate(-0 42.6 260.839219)">20</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_8">
+      <path d="M 48.6 215.28 
+L 625.32 215.28 
+" clip-path="url(#p46166e1494)" style="fill: none; stroke: #e5e7eb; stroke-opacity: 0.9; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_9"/>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #475569" x="42.6" y="219.079219" transform="rotate(-0 42.6 219.079219)">40</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10">
+      <path d="M 48.6 173.52 
+L 625.32 173.52 
+" clip-path="url(#p46166e1494)" style="fill: none; stroke: #e5e7eb; stroke-opacity: 0.9; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_11"/>
+     <g id="text_7">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #475569" x="42.6" y="177.319219" transform="rotate(-0 42.6 177.319219)">60</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_12">
+      <path d="M 48.6 131.76 
+L 625.32 131.76 
+" clip-path="url(#p46166e1494)" style="fill: none; stroke: #e5e7eb; stroke-opacity: 0.9; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_13"/>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #475569" x="42.6" y="135.559219" transform="rotate(-0 42.6 135.559219)">80</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_14">
+      <path d="M 48.6 90 
+L 625.32 90 
+" clip-path="url(#p46166e1494)" style="fill: none; stroke: #e5e7eb; stroke-opacity: 0.9; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_15"/>
+     <g id="text_9">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #475569" x="42.6" y="93.799219" transform="rotate(-0 42.6 93.799219)">100</text>
+     </g>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #475569" x="17.432813" y="194.4" transform="rotate(-90 17.432813 194.4)">Official percentage (%)</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 48.6 298.8 
+L 48.6 90 
+" style="fill: none; stroke: #cbd5e1; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 48.6 298.8 
+L 625.32 298.8 
+" style="fill: none; stroke: #cbd5e1; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 74.814545 298.8 
+L 198.883387 298.8 
+L 198.883387 252.864 
+L 74.814545 252.864 
+z
+" clip-path="url(#p46166e1494)" style="fill: #2f6bff"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 274.925579 298.8 
+L 398.994421 298.8 
+L 398.994421 198.404926 
+L 274.925579 198.404926 
+z
+" clip-path="url(#p46166e1494)" style="fill: #00a6a6"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 475.036613 298.8 
+L 599.105455 298.8 
+L 599.105455 227.808 
+L 475.036613 227.808 
+z
+" clip-path="url(#p46166e1494)" style="fill: #c2413a"/>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="136.848966" y="246.609975" transform="rotate(-0 136.848966 246.609975)">22.0%</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="336.96" y="192.150901" transform="rotate(-0 336.96 192.150901)">48.1%</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="537.071034" y="221.553975" transform="rotate(-0 537.071034 221.553975)">34.0%</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 600; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0f172a" x="48.6" y="78" transform="rotate(-0 48.6 78)">CADTestBench | detailed | n=200</text>
+   </g>
+  </g>
+  <g id="text_15">
+   <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0f172a" x="29.16" y="26.277188" transform="rotate(-0 29.16 26.277188)">CADTestBench detailed official metrics</text>
+  </g>
+  <g id="text_16">
+   <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #475569" x="29.16" y="39.618516" transform="rotate(-0 29.16 39.618516)">Official PR, requirement satisfaction, and invalid-sample percentage</text>
+  </g>
+  <g id="text_17">
+   <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #64748b" x="618.84" y="349.231641" transform="rotate(-0 618.84 349.231641)">Frozen CAD run | n=200 | official CADTestBench evaluator</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p46166e1494">
+   <rect x="48.6" y="90" width="576.72" height="208.8"/>
+  </clipPath>
+ </defs>
+</svg>

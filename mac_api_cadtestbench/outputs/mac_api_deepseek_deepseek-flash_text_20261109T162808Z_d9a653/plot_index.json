@@ -1,0 +1,17 @@
+[
+  {
+    "partition": "detailed",
+    "paths": {
+      "official_metrics": "/root/autodl-tmp/mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/official_metrics.png",
+      "category_accuracy": "/root/autodl-tmp/mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/category_accuracy.png",
+      "sample_category_01": "/root/autodl-tmp/mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/sample_category_01.png",
+      "sample_category_02": "/root/autodl-tmp/mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/sample_category_02.png",
+      "sample_category_03": "/root/autodl-tmp/mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/sample_category_03.png",
+      "sample_category_04": "/root/autodl-tmp/mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/sample_category_04.png",
+      "sample_category_05": "/root/autodl-tmp/mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/sample_category_05.png",
+      "sample_category_06": "/root/autodl-tmp/mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/sample_category_06.png",
+      "cad_gallery": "/root/autodl-tmp/mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/generated_stl_gallery.png",
+      "interactive_html": "/root/autodl-tmp/mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653/figures/detailed/rotatable_cad.html"
+    }
+  }
+]

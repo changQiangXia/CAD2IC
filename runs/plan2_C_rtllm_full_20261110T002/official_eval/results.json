@@ -1,0 +1,1226 @@
+[
+  {
+    "task_id": "accu",
+    "module_name": "accu",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/accu/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Arithmetic/Accumulator/accu/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/accu/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/accu/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Arithmetic/Accumulator/accu/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/accu/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.028700102120637894
+  },
+  {
+    "task_id": "adder_16bit",
+    "module_name": "adder_16bit",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/adder_16bit/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Arithmetic/Adder/adder_16bit/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/adder_16bit/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/adder_16bit/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Arithmetic/Adder/adder_16bit/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/adder_16bit/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.030263062566518784
+  },
+  {
+    "task_id": "adder_32bit",
+    "module_name": "adder_32bit",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/adder_32bit/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Arithmetic/Adder/adder_32bit/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/adder_32bit/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/adder_32bit/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Arithmetic/Adder/adder_32bit/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/adder_32bit/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.08417623117566109
+  },
+  {
+    "task_id": "adder_8bit",
+    "module_name": "adder_8bit",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/adder_8bit/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Arithmetic/Adder/adder_8bit/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/adder_8bit/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/adder_8bit/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Arithmetic/Adder/adder_8bit/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/adder_8bit/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.02819228544831276
+  },
+  {
+    "task_id": "adder_bcd",
+    "module_name": "adder_bcd",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/adder_bcd/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Arithmetic/Adder/adder_bcd/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/adder_bcd/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/adder_bcd/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Arithmetic/Adder/adder_bcd/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/adder_bcd/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.02849545329809189
+  },
+  {
+    "task_id": "adder_pipe_64bit",
+    "module_name": "adder_pipe_64bit",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/adder_pipe_64bit/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Arithmetic/Adder/adder_pipe_64bit/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/adder_pipe_64bit/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/adder_pipe_64bit/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Arithmetic/Adder/adder_pipe_64bit/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/adder_pipe_64bit/simv"
+    ],
+    "status": "compile_error",
+    "passed": false,
+    "error": "iverilog exited with 3",
+    "elapsed_seconds": 0.012655992060899734
+  },
+  {
+    "task_id": "comparator_3bit",
+    "module_name": "comparator_3bit",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/comparator_3bit/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Arithmetic/Comparator/comparator_3bit/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/comparator_3bit/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/comparator_3bit/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Arithmetic/Comparator/comparator_3bit/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/comparator_3bit/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.026151511818170547
+  },
+  {
+    "task_id": "comparator_4bit",
+    "module_name": "comparator_4bit",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/comparator_4bit/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Arithmetic/Comparator/comparator_4bit/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/comparator_4bit/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/comparator_4bit/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Arithmetic/Comparator/comparator_4bit/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/comparator_4bit/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.02736596018075943
+  },
+  {
+    "task_id": "div_16bit",
+    "module_name": "div_16bit",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/div_16bit/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Arithmetic/Divider/div_16bit/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/div_16bit/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/div_16bit/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Arithmetic/Divider/div_16bit/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/div_16bit/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.03522457927465439
+  },
+  {
+    "task_id": "radix2_div",
+    "module_name": "radix2_div",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/radix2_div/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Arithmetic/Divider/radix2_div/testbench.v",
+    "simulator": "verilator",
+    "compile_command": [
+      "verilator",
+      "--timing",
+      "--binary",
+      "--top-module",
+      "radix2_div_tb",
+      "-Wno-fatal",
+      "-Wno-lint",
+      "-Wno-style",
+      "--Mdir",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/radix2_div/verilator",
+      "-o",
+      "simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/radix2_div/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Arithmetic/Divider/radix2_div/testbench.v"
+    ],
+    "simulation_command": [
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/radix2_div/verilator/simv"
+    ],
+    "status": "compile_error",
+    "passed": false,
+    "error": "Verilator exited with 1",
+    "elapsed_seconds": 0.09184356033802032
+  },
+  {
+    "task_id": "multi_16bit",
+    "module_name": "multi_16bit",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/multi_16bit/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Arithmetic/Multiplier/multi_16bit/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/multi_16bit/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/multi_16bit/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Arithmetic/Multiplier/multi_16bit/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/multi_16bit/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.04616910219192505
+  },
+  {
+    "task_id": "multi_8bit",
+    "module_name": "multi_8bit",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/multi_8bit/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Arithmetic/Multiplier/multi_8bit/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/multi_8bit/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/multi_8bit/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Arithmetic/Multiplier/multi_8bit/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/multi_8bit/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.02983536198735237
+  },
+  {
+    "task_id": "multi_booth_8bit",
+    "module_name": "multi_booth_8bit",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/multi_booth_8bit/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Arithmetic/Multiplier/multi_booth_8bit/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/multi_booth_8bit/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/multi_booth_8bit/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Arithmetic/Multiplier/multi_booth_8bit/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/multi_booth_8bit/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.027878619730472565
+  },
+  {
+    "task_id": "multi_pipe_4bit",
+    "module_name": "multi_pipe_4bit",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/multi_pipe_4bit/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Arithmetic/Multiplier/multi_pipe_4bit/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/multi_pipe_4bit/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/multi_pipe_4bit/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Arithmetic/Multiplier/multi_pipe_4bit/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/multi_pipe_4bit/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.03388059511780739
+  },
+  {
+    "task_id": "multi_pipe_8bit",
+    "module_name": "multi_pipe_8bit",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/multi_pipe_8bit/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Arithmetic/Multiplier/multi_pipe_8bit/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/multi_pipe_8bit/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/multi_pipe_8bit/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Arithmetic/Multiplier/multi_pipe_8bit/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/multi_pipe_8bit/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.05285012722015381
+  },
+  {
+    "task_id": "fixed_point_adder",
+    "module_name": "fixed_point_adder",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/fixed_point_adder/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Arithmetic/Other/fixed_point_adder/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/fixed_point_adder/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/fixed_point_adder/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Arithmetic/Other/fixed_point_adder/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/fixed_point_adder/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.028560351580381393
+  },
+  {
+    "task_id": "fixed_point_substractor",
+    "module_name": "fixed_point_subtractor",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/fixed_point_substractor/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Arithmetic/Other/fixed_point_substractor/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/fixed_point_substractor/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/fixed_point_substractor/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Arithmetic/Other/fixed_point_substractor/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/fixed_point_substractor/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.02734455093741417
+  },
+  {
+    "task_id": "float_multi",
+    "module_name": "float_multi",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/float_multi/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Arithmetic/Other/float_multi/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/float_multi/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/float_multi/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Arithmetic/Other/float_multi/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/float_multi/simv"
+    ],
+    "status": "functional_mismatch",
+    "passed": false,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.028683625161647797
+  },
+  {
+    "task_id": "sub_64bit",
+    "module_name": "sub_64bit",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/sub_64bit/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Arithmetic/Substractor/sub_64bit/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/sub_64bit/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/sub_64bit/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Arithmetic/Substractor/sub_64bit/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/sub_64bit/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.026745114475488663
+  },
+  {
+    "task_id": "asyn_fifo",
+    "module_name": "asyn_fifo",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/asyn_fifo/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Memory/FIFO/asyn_fifo/testbench.v",
+    "simulator": "verilator",
+    "compile_command": [
+      "verilator",
+      "--timing",
+      "--binary",
+      "--top-module",
+      "asyn_fifo_tb",
+      "-Wno-fatal",
+      "-Wno-lint",
+      "-Wno-style",
+      "--Mdir",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/asyn_fifo/verilator",
+      "-o",
+      "simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/asyn_fifo/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Memory/FIFO/asyn_fifo/testbench.v"
+    ],
+    "simulation_command": [
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/asyn_fifo/verilator/simv"
+    ],
+    "status": "runtime_error",
+    "passed": false,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 10.527075156569481
+  },
+  {
+    "task_id": "LIFObuffer",
+    "module_name": "LIFObuffer",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/LIFObuffer/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Memory/LIFO/LIFObuffer/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/LIFObuffer/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/LIFObuffer/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Memory/LIFO/LIFObuffer/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/LIFObuffer/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.026593156158924103
+  },
+  {
+    "task_id": "LFSR",
+    "module_name": "LFSR",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/LFSR/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Memory/Shifter/LFSR/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/LFSR/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/LFSR/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Memory/Shifter/LFSR/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/LFSR/simv"
+    ],
+    "status": "compile_error",
+    "passed": false,
+    "error": "iverilog exited with 2",
+    "elapsed_seconds": 0.012350503355264664
+  },
+  {
+    "task_id": "barrel_shifter",
+    "module_name": "barrel_shifter",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/barrel_shifter/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Memory/Shifter/barrel_shifter/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/barrel_shifter/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/barrel_shifter/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Memory/Shifter/barrel_shifter/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/barrel_shifter/simv"
+    ],
+    "status": "functional_mismatch",
+    "passed": false,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.03570617362856865
+  },
+  {
+    "task_id": "right_shifter",
+    "module_name": "right_shifter",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/right_shifter/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Memory/Shifter/right_shifter/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/right_shifter/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/right_shifter/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Memory/Shifter/right_shifter/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/right_shifter/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.024808887392282486
+  },
+  {
+    "task_id": "JC_counter",
+    "module_name": "JC_counter",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/JC_counter/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Control/Counter/JC_counter/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/JC_counter/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/JC_counter/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Control/Counter/JC_counter/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/JC_counter/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.0258912593126297
+  },
+  {
+    "task_id": "counter_12",
+    "module_name": "counter_12",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/counter_12/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Control/Counter/counter_12/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/counter_12/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/counter_12/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Control/Counter/counter_12/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/counter_12/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.025332681834697723
+  },
+  {
+    "task_id": "ring_counter",
+    "module_name": "ring_counter",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/ring_counter/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Control/Counter/ring_counter/testbench.v",
+    "simulator": "verilator",
+    "compile_command": [
+      "verilator",
+      "--timing",
+      "--binary",
+      "--top-module",
+      "testbench",
+      "-Wno-fatal",
+      "-Wno-lint",
+      "-Wno-style",
+      "--Mdir",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/ring_counter/verilator",
+      "-o",
+      "simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/ring_counter/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Control/Counter/ring_counter/testbench.v"
+    ],
+    "simulation_command": [
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/ring_counter/verilator/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 10.463797595351934
+  },
+  {
+    "task_id": "up_down_counter",
+    "module_name": "up_down_counter",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/up_down_counter/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Control/Counter/up_down_counter/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/up_down_counter/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/up_down_counter/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Control/Counter/up_down_counter/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/up_down_counter/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.022041328251361847
+  },
+  {
+    "task_id": "fsm",
+    "module_name": "fsm",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/fsm/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Control/Finite State Machine/fsm/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/fsm/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/fsm/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Control/Finite State Machine/fsm/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/fsm/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.02905968204140663
+  },
+  {
+    "task_id": "sequence_detector",
+    "module_name": "sequence_detector",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/sequence_detector/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Control/Finite State Machine/sequence_detector/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/sequence_detector/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/sequence_detector/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Control/Finite State Machine/sequence_detector/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/sequence_detector/simv"
+    ],
+    "status": "compile_error",
+    "passed": false,
+    "error": "iverilog exited with 1",
+    "elapsed_seconds": 0.012800242751836777
+  },
+  {
+    "task_id": "freq_div",
+    "module_name": "freq_div",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/freq_div/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Miscellaneous/Frequency divider/freq_div/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/freq_div/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/freq_div/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Miscellaneous/Frequency divider/freq_div/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/freq_div/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.0271550714969635
+  },
+  {
+    "task_id": "freq_divbyeven",
+    "module_name": "freq_divbyeven",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/freq_divbyeven/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Miscellaneous/Frequency divider/freq_divbyeven/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/freq_divbyeven/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/freq_divbyeven/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Miscellaneous/Frequency divider/freq_divbyeven/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/freq_divbyeven/simv"
+    ],
+    "status": "compile_error",
+    "passed": false,
+    "error": "iverilog exited with 2",
+    "elapsed_seconds": 0.011551454663276672
+  },
+  {
+    "task_id": "freq_divbyfrac",
+    "module_name": "freq_divbyfrac",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/freq_divbyfrac/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Miscellaneous/Frequency divider/freq_divbyfrac/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/freq_divbyfrac/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/freq_divbyfrac/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Miscellaneous/Frequency divider/freq_divbyfrac/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/freq_divbyfrac/simv"
+    ],
+    "status": "functional_mismatch",
+    "passed": false,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.026021994650363922
+  },
+  {
+    "task_id": "freq_divbyodd",
+    "module_name": "freq_divbyodd",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/freq_divbyodd/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Miscellaneous/Frequency divider/freq_divbyodd/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/freq_divbyodd/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/freq_divbyodd/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Miscellaneous/Frequency divider/freq_divbyodd/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/freq_divbyodd/simv"
+    ],
+    "status": "functional_mismatch",
+    "passed": false,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.026309411972761154
+  },
+  {
+    "task_id": "calendar",
+    "module_name": "calendar",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/calendar/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Miscellaneous/Others/calendar/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/calendar/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/calendar/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Miscellaneous/Others/calendar/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/calendar/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.0533328540623188
+  },
+  {
+    "task_id": "edge_detect",
+    "module_name": "edge_detect",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/edge_detect/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Miscellaneous/Others/edge_detect/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/edge_detect/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/edge_detect/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Miscellaneous/Others/edge_detect/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/edge_detect/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.026393629610538483
+  },
+  {
+    "task_id": "parallel2serial",
+    "module_name": "parallel2serial",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/parallel2serial/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Miscellaneous/Others/parallel2serial/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/parallel2serial/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/parallel2serial/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Miscellaneous/Others/parallel2serial/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/parallel2serial/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.031395308673381805
+  },
+  {
+    "task_id": "pulse_detect",
+    "module_name": "pulse_detect",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/pulse_detect/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Miscellaneous/Others/pulse_detect/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/pulse_detect/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/pulse_detect/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Miscellaneous/Others/pulse_detect/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/pulse_detect/simv"
+    ],
+    "status": "runtime_error",
+    "passed": false,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.02721436694264412
+  },
+  {
+    "task_id": "serial2parallel",
+    "module_name": "serial2parallel",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/serial2parallel/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Miscellaneous/Others/serial2parallel/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/serial2parallel/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/serial2parallel/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Miscellaneous/Others/serial2parallel/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/serial2parallel/simv"
+    ],
+    "status": "simulation_timeout",
+    "passed": false,
+    "error": "Simulation exceeded 180.0 seconds",
+    "elapsed_seconds": 180.11752178147435
+  },
+  {
+    "task_id": "synchronizer",
+    "module_name": "synchronizer",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/synchronizer/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Miscellaneous/Others/synchronizer/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/synchronizer/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/synchronizer/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Miscellaneous/Others/synchronizer/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/synchronizer/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.028548095375299454
+  },
+  {
+    "task_id": "traffic_light",
+    "module_name": "traffic_light",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/traffic_light/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Miscellaneous/Others/traffic_light/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/traffic_light/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/traffic_light/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Miscellaneous/Others/traffic_light/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/traffic_light/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.02892424166202545
+  },
+  {
+    "task_id": "width_8to16",
+    "module_name": "width_8to16",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/width_8to16/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Miscellaneous/Others/width_8to16/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/width_8to16/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/width_8to16/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Miscellaneous/Others/width_8to16/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/width_8to16/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.025629747658967972
+  },
+  {
+    "task_id": "RAM",
+    "module_name": "RAM",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/RAM/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Miscellaneous/RISC-V/RAM/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/RAM/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/RAM/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Miscellaneous/RISC-V/RAM/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/RAM/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.0340389609336853
+  },
+  {
+    "task_id": "ROM",
+    "module_name": "ROM",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/ROM/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Miscellaneous/RISC-V/ROM/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/ROM/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/ROM/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Miscellaneous/RISC-V/ROM/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/ROM/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.036300480365753174
+  },
+  {
+    "task_id": "alu",
+    "module_name": "alu",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/alu/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Miscellaneous/RISC-V/alu/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/alu/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/alu/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Miscellaneous/RISC-V/alu/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/alu/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.02970234304666519
+  },
+  {
+    "task_id": "clkgenerator",
+    "module_name": "clkgenerator",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/clkgenerator/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Miscellaneous/RISC-V/clkgenerator/testbench.v",
+    "simulator": "verilator",
+    "compile_command": [
+      "verilator",
+      "--timing",
+      "--binary",
+      "--top-module",
+      "clkgenerator_tb",
+      "-Wno-fatal",
+      "-Wno-lint",
+      "-Wno-style",
+      "--Mdir",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/clkgenerator/verilator",
+      "-o",
+      "simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/clkgenerator/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Miscellaneous/RISC-V/clkgenerator/testbench.v"
+    ],
+    "simulation_command": [
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/clkgenerator/verilator/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 10.249704577028751
+  },
+  {
+    "task_id": "instr_reg",
+    "module_name": "instr_reg",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/instr_reg/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Miscellaneous/RISC-V/instr_reg/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/instr_reg/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/instr_reg/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Miscellaneous/RISC-V/instr_reg/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/instr_reg/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.02698645368218422
+  },
+  {
+    "task_id": "pe",
+    "module_name": "pe",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/pe/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Miscellaneous/RISC-V/pe/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/pe/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/pe/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Miscellaneous/RISC-V/pe/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/pe/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.025086749345064163
+  },
+  {
+    "task_id": "signal_generator",
+    "module_name": "signal_generator",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/signal_generator/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Miscellaneous/Signal generation/signal_generator/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/signal_generator/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/signal_generator/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Miscellaneous/Signal generation/signal_generator/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/signal_generator/simv"
+    ],
+    "status": "runtime_error",
+    "passed": false,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.02635332942008972
+  },
+  {
+    "task_id": "square_wave",
+    "module_name": "square_wave",
+    "rtl_path": "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/square_wave/rtl.sv",
+    "testbench_path": "/root/autodl-tmp/RTLLM/Miscellaneous/Signal generation/square_wave/testbench.v",
+    "simulator": "iverilog",
+    "compile_command": [
+      "iverilog",
+      "-g2012",
+      "-Wall",
+      "-o",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/square_wave/simv",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/output/square_wave/rtl.sv",
+      "/root/autodl-tmp/RTLLM/Miscellaneous/Signal generation/square_wave/testbench.v"
+    ],
+    "simulation_command": [
+      "vvp",
+      "/root/autodl-tmp/runs/plan2_C_rtllm_full_20261110T002/official_eval/square_wave/simv"
+    ],
+    "status": "passed",
+    "passed": true,
+    "simulation_returncode": 0,
+    "elapsed_seconds": 0.02542908862233162
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "project": "CAD to IC multi-agent benchmark reproduction",
+  "completed_at": "2026-11-10T14:04:30Z",
+  "versions": {
+    "mage": "90c96366c518d32bd7b81703bdef3cc46eeaeaf9",
+    "verilog_eval_v2": "c498220d0a52248f8e3fdffe279075215bde2da6",
+    "rtllm_v2": "41b26896e33b536940116a975626455eed3de65e",
+    "icarus_verilog": "12.0",
+    "verilator": "5.054",
+    "python_mage": "3.11.18"
+  },
+  "results": {
+    "cad_detailed": {
+      "samples": 200,
+      "pr": 22.0,
+      "rs": 48.08193195693196,
+      "invalid_percentage": 34.0,
+      "run_dir": "mac_api_cadtestbench/outputs/mac_api_deepseek_deepseek-flash_text_20261109T162808Z_d9a653"
+    },
+    "verilog_eval_v2": {
+      "samples": 156,
+      "passed": 141,
+      "pass_at_1": 0.9038461538461539,
+      "mage_internal_passed": 143,
+      "run_dir": "runs/mage_verilogeval_full_20261109"
+    },
+    "rtllm_v2": {
+      "samples": 50,
+      "passed": 42,
+      "pass_at_1": 0.84,
+      "run_dir": "runs/rtllm_full_20261109"
+    },
+    "plan2_verilog_eval_v2": {
+      "mage_hidden": "115/156",
+      "single_hidden": "121/156",
+      "report": "runs/plan2_results_20261110.md"
+    },
+    "plan2_rtllm_v2": {
+      "mage_hidden": "36/50",
+      "single_hidden": "37/50"
+    },
+    "plan3": {
+      "verilog_eval_single_assisted": "125/156",
+      "rtllm_single_assisted": "41/50",
+      "verilog_eval_mage_advantage_pp": 10.2564,
+      "verilog_eval_mcnemar_p": 0.001544,
+      "report": "runs/plan3_results_20261110.md"
+    }
+  },
+  "generation_mode": {
+    "provider": "deepseek",
+    "model": "deepseek-flash",
+    "thinking": "disabled",
+    "temperature": 0.85,
+    "top_p": 0.95,
+    "use_golden_tb_in_mage": true,
+    "testbench_assisted_generation": true
+  },
+  "rtl_tokens": {
+    "verilog_eval_v2": 7284647,
+    "rtllm_v2": 2301049,
+    "total": 9585696
+  }
+}
